@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         textTheme: GoogleFonts.poppinsTextTheme(),
-        colorScheme: const ColorScheme.dark(),
+        brightness: Brightness.dark,
       ),
       debugShowCheckedModeBanner: false,
       routerConfig: AppRouting.router,
